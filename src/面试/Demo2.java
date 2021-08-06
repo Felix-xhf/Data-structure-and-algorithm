@@ -18,7 +18,8 @@ public class Demo2 {
         System.out.println(s2 == s3);  //true
 
         if (s2.equals("abc")){
-            System.out.println("abc");
+            String str = "abc" + "dbf";
+            System.out.println(str);
         }
     }
 }
