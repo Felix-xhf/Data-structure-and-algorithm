@@ -214,7 +214,7 @@ public class Main912 {
 
         //循环找比标准数大的数  和  比标准数小的数
         while(low < high){
-            //如果low 和 high索引处的值 一直的时候，就会进入死循环，所以需要有一方做出让步
+            //如果low 和 high索引处的值 一直的时候，就会进入死循环，所以需要有一方做出让步,在low和high的索引的值和标准值大小一致了
             if (nums[high] == nums[low]){
                 high--;
             }
